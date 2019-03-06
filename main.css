@@ -1,12 +1,51 @@
 body {
-    background-color: black;    
-    color: white;
+    background-color: rgb(85, 48, 2);
+    color:white;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.dinosaur {
+#dinosaur {
     border: 2px solid yellow;
+}
+
+.assignments {
+    border: 1px solid white;
+    background-color:black;
+    width: 175px;
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 5px 3px 3px 3px yellow;
+}
+
+.title{
+    font-size: 14px;
+    background-color:yellow;
+    color:black;
+    padding: 5px;
+}
+
+.dueDate{
+    font-size: 20px;
+
+}
+
+.topic{
+    font-size: 11px;
+}
+
+.notes{
+    font-size: 11px;
+}
+
+.assignmentUrl{
+
+}
+
+a:link{
+    text-decoration: none;
+    color:yellow;
 }
